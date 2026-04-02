@@ -17,7 +17,7 @@ app.put('/updateprofile', (req, res) => {
     res.send('<html><body>INSIDE UPDATE PROFILE API...</html></body>');
 })
 
-app.delete('/view', (req, res) => {
+app.delete('/delete', (req, res) => {
     res.send('<html><body>INSIDE DELETE API...</html></body>');
 })
 
